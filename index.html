@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="米米科技 - AI 企業網站製作專家。全自動化網頁設計、品牌官網製作、電商平台開發。高質感設計、全球 SEO 優化、快速交付。此網站全部由 AI 寫成，展示最有效的網站製作方式。">
+    <meta name="keywords" content="網站製作, 網頁設計, 企業網站製作, 高端網站設計, 品牌官網製作, 網站製作公司, 響應式網站, AI 網站製作, 網頁設計服務, 飯店網站製作, 民宿官網設計, 電商網站製作, 網站設計公司">
+    <meta name="author" content="米米科技">
+    <meta property="og:title" content="米米科技 - 企業高質感網站製作專家">
+    <meta property="og:description" content="專業的品牌官網、企業網站、電商平台製作服務。快速交付、高質感設計、全球 SEO 優化。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mimtech.com">
+    <meta name="theme-color" content="#1E3A8A">
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "米米科技",
+        "url": "https://mimtech.com",
+        "logo": "https://mimtech.com/logo.png",
+        "description": "企業高質感網站製作專家",
+        "sameAs": [
+            "https://line.me/ti/p/q4yJaRSuwz"
+        ],
+        "email": "onlyskypc@gmail.com",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+886-LINE",
+            "contactType": "Customer Support",
+            "email": "onlyskypc@gmail.com",
+            "availableLanguage": ["zh-TW", "en"]
+        }
+    }
+    </script>
+
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "米米科技",
+        "image": "https://mimtech.com/hero.jpg",
+        "description": "企業高質感網站製作服務",
+        "priceRange": "$$",
+        "areaServed": "Worldwide"
+    }
+    </script>
+
+    <title>米米科技 - AI 網站製作專家 | 企業網頁設計、品牌官網製作、電商平台開發</title>
+    <!-- 微軟正黑體字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>米米科技</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#services">服務</a></li>
+                    <li><a href="#pricing">定價</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="faq.html">常見問題</a></li>
+                    <li><a href="https://line.me/ti/p/q4yJaRSuwz" class="cta-btn" target="_blank">聯繫我們</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <ul>
+                    <li><a href="#services">服務</a></li>
+                    <li><a href="#pricing">定價</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="faq.html">常見問題</a></li>
+                    <li><a href="https://line.me/ti/p/q4yJaRSuwz" target="_blank">聯繫我們</a></li>
+                </ul>
+            </div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&h=900&fit=crop&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">企業高質感網站製作</h2>
+            <p class="hero-subtitle">全 AI 自動化網頁設計 • 品牌官網製作 • 電商平台開發</p>
+            <p class="hero-description" style="color: white; font-weight: 600;">✨ 此網站全部由 AI 寫成 ✨</p>
+            <p class="hero-description-sub" style="color: white;">您能搜尋到這個頁面，就是全 AI 程式碼 + 關鍵字設計的結果 — 這是最有效的網站製作方式</p>
+            <div class="hero-cta">
+                <a href="https://line.me/ti/p/q4yJaRSuwz" class="btn btn-primary" target="_blank">直接聯繫 LINE</a>
+                <button class="btn btn-secondary" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">查看作品</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">我們的服務</h2>
+            <p class="section-subtitle">提供全方位的網站製作解決方案</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop&q=80" alt="品牌官網設計" class="service-image">
+                    <div class="service-icon">🎨</div>
+                    <h3>品牌官網設計</h3>
+                    <p>打造獨特的品牌形象，展現企業價值與文化。高質感設計、專業排版、品牌一致性。</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-adf4e565db18?w=400&h=300&fit=crop&q=80" alt="電商平台製作" class="service-image">
+                    <div class="service-icon">🛍️</div>
+                    <h3>電商平台製作</h3>
+                    <p>完整的電商解決方案，包含產品展示、購物車、支付整合、庫存管理。提升銷售轉化。</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop&q=80" alt="響應式設計" class="service-image">
+                    <div class="service-icon">📱</div>
+                    <h3>響應式設計</h3>
+                    <p>完美適配所有設備（桌面、平板、手機）。快速加載、優化使用體驗、提升用戶滿意度。</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&q=80" alt="SEO 優化" class="service-image">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO 優化</h3>
+                    <p>全球 SEO 優化策略，提升搜尋引擎排名。結構化數據、關鍵詞優化、內容策略。</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop&q=80" alt="高效能優化" class="service-image">
+                    <div class="service-icon">⚡</div>
+                    <h3>高效能優化</h3>
+                    <p>優化網站速度與效能，提升用戶體驗。快速加載、流暢動畫、穩定運行。</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&q=80" alt="持續維護支援" class="service-image">
+                    <div class="service-icon">🛠️</div>
+                    <h3>持續維護支援</h3>
+                    <p>提供長期的技術支援與維護服務。安全更新、內容管理、問題解決。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">定價方案</h2>
+            <p class="section-subtitle">選擇最適合您的方案，享受高質感設計與便宜費用</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">基礎方案</div>
+                    <h3>Starter</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">1,299</span>
+                        <span class="period">/起</span>
+                    </div>
+                    <p class="price-description">適合初創企業與小型企業</p>
+                    <ul class="features-list">
+                        <li>✓ 5 個頁面設計</li>
+                        <li>✓ 響應式設計</li>
+                        <li>✓ 基礎 SEO 優化</li>
+                        <li>✓ 聯繫表單</li>
+                        <li>✓ 1 個月免費維護</li>
+                        <li>✗ 電商功能</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="contactUs()">選擇方案</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge featured-badge">最受歡迎</div>
+                    <h3>Professional</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">2,999</span>
+                        <span class="period">/起</span>
+                    </div>
+                    <p class="price-description">適合成長期企業</p>
+                    <ul class="features-list">
+                        <li>✓ 10 個頁面設計</li>
+                        <li>✓ 響應式設計</li>
+                        <li>✓ 進階 SEO 優化</li>
+                        <li>✓ 聯繫表單 + CRM 整合</li>
+                        <li>✓ 3 個月免費維護</li>
+                        <li>✓ 基礎部落格功能</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="contactUs()">選擇方案</button>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-badge">高級方案</div>
+                    <h3>Premium</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">4,999</span>
+                        <span class="period">/起</span>
+                    </div>
+                    <p class="price-description">適合成熟企業與電商</p>
+                    <ul class="features-list">
+                        <li>✓ 無限頁面設計</li>
+                        <li>✓ 響應式設計</li>
+                        <li>✓ 完整 SEO 優化</li>
+                        <li>✓ 電商功能 + 支付整合</li>
+                        <li>✓ 6 個月免費維護</li>
+                        <li>✓ 高級分析與報告</li>
+                    </ul>
+                    <button class="btn btn-outline" onclick="contactUs()">選擇方案</button>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p>💡 所有方案均包含：免費諮詢、快速交付、高質感設計、全球 SEO 優化、響應式設計、技術支援</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">作品集展示</h2>
+            <p class="section-subtitle">精選的 WordPress 企業網站範例</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=350&fit=crop&q=80" alt="高端飯店預訂系統" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>高端飯店預訂系統</h4>
+                        <p>完整的飯店網站，包含房間展示、線上預訂、支付整合。提升訂房轉化率 45%。</p>
+                        <span class="portfolio-tag">WordPress + Booking System</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=350&fit=crop&q=80" alt="民宿官網設計" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>民宿官網設計</h4>
+                        <p>精美的民宿官網，展示房型、設施、評價。優化 SEO，提升搜尋排名。</p>
+                        <span class="portfolio-tag">WordPress + Gallery</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=350&fit=crop&q=80" alt="企業品牌官網" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>企業品牌官網</h4>
+                        <p>專業的企業官網，展現品牌形象。包含產品展示、案例分享、联繫方式。</p>
+                        <span class="portfolio-tag">WordPress + Custom Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=350&fit=crop&q=80" alt="電商平台" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>電商平台</h4>
+                        <p>完整的電商網站，包含產品管理、購物車、支付整合。銷售額提升 60%。</p>
+                        <span class="portfolio-tag">WordPress + WooCommerce</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=350&fit=crop&q=80" alt="服務業官網" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>服務業官網</h4>
+                        <p>專業的服務業網站，展示服務項目、團隊介紹、客戶評價。提升品牌信任度。</p>
+                        <span class="portfolio-tag">WordPress + Testimonials</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=350&fit=crop&q=80" alt="內容行銷網站" class="portfolio-image-img">
+                    <div class="portfolio-info">
+                        <h4>內容行銷網站</h4>
+                        <p>功能完整的內容行銷網站，包含部落格、SEO 優化、電子郵件訂閱。</p>
+                        <span class="portfolio-tag">WordPress + Blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">為什麼選擇米米科技</h2>
+            
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <div class="why-us-number">01</div>
+                    <h3>高質感設計</h3>
+                    <p>專業的設計團隊，打造企業級高質感網站。每個細節都精心設計，展現品牌價值。</p>
+                </div>
+                
+                <div class="why-us-item">
+                    <div class="why-us-number">02</div>
+                    <h3>便宜費用</h3>
+                    <p>提供業界最具競爭力的價格，不犧牲品質。讓每個企業都能擁有高質感官網。</p>
+                </div>
+                
+                <div class="why-us-item">
+                    <div class="why-us-number">03</div>
+                    <h3>快速交付</h3>
+                    <p>高效的工作流程，快速交付項目。基礎方案 7 天內完成，無需長期等待。</p>
+                </div>
+                
+                <div class="why-us-item">
+                    <div class="why-us-number">04</div>
+                    <h3>全球 SEO 優化</h3>
+                    <p>內建全球 SEO 優化策略，提升搜尋引擎排名。讓全球客戶都能找到您。</p>
+                </div>
+                
+                <div class="why-us-item">
+                    <div class="why-us-number">05</div>
+                    <h3>響應式設計</h3>
+                    <p>完美適配所有設備，提供最佳用戶體驗。桌面、平板、手機無縫切換。</p>
+                </div>
+                
+                <div class="why-us-item">
+                    <div class="why-us-number">06</div>
+                    <h3>長期支援</h3>
+                    <p>提供長期的技術支援與維護服務。安全更新、內容管理、問題解決。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>準備好提升您的品牌形象了嗎？</h2>
+            <p>立即聯繫我們，獲得免費的網站製作諮詢與報價</p>
+            <button class="btn btn-primary btn-large" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">立即開始</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">聯繫我們</h2>
+            <p class="section-subtitle">通過 LINE 快速聯繫，獲得即時回應</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📱 LINE 直接聯繫</h3>
+                        <p>最快速的聯繫方式</p>
+                        <p class="contact-detail">點擊下方按鈕立即開啟 LINE</p>
+                        <a href="https://line.me/ti/p/q4yJaRSuwz" class="btn btn-primary" target="_blank">直接聯繫 LINE</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📬 電子郵件</h3>
+                        <p>也可以透過 Email 聯繫我們</p>
+                        <p class="contact-detail"><strong>onlyskypc@gmail.com</strong></p>
+                        <a href="mailto:onlyskypc@gmail.com" class="btn btn-secondary">發送 Email</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>🌐 全球服務</h3>
+                        <p>我們提供全球網站製作服務</p>
+                        <p class="contact-detail">支持多種語言與時區</p>
+                    </div>
+                </div>
+
+                <div class="contact-highlight">
+                    <h3 style="color: white;">✨ 最有效的聯繫方式</h3>
+                    <p style="color: white;">直接點擊上方 LINE 按鈕，我們會立即回覆您的需求！</p>
+                    <a href="https://line.me/ti/p/q4yJaRSuwz" class="btn btn-primary btn-large" target="_blank">📱 直接聯繫 LINE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>米米科技</h4>
+                    <p>企業高質感網站製作專家，提供專業的品牌官網、企業網站、電商平台製作服務。</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>服務</h4>
+                    <ul>
+                        <li><a href="#services">品牌官網設計</a></li>
+                        <li><a href="#services">電商平台製作</a></li>
+                        <li><a href="#services">SEO 優化</a></li>
+                        <li><a href="#services">持續維護支援</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="#pricing">定價方案</a></li>
+                        <li><a href="#portfolio">作品集</a></li>
+                        <li><a href="https://line.me/ti/p/q4yJaRSuwz" target="_blank">聯繫我們</a></li>
+                        <li><a href="#">隱私政策</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>聯繫方式</h4>
+                    <p>LINE ID: <strong>sym000</strong></p>
+                    <p>📫 Email: onlyskypc@gmail.com</p>
+                    <p>🌍 Global Service Available</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 米米科技. All rights reserved. | <a href="#">隱私政策</a> | <a href="#">服務條款</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
